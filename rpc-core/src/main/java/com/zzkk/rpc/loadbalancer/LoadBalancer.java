@@ -13,7 +13,7 @@ public interface LoadBalancer {
 
     /**
      * @description 从一系列Instance中选择一个
-     * @param [instances]
+     * @param
      * @return [com.alibaba.nacos.api.naming.pojo.Instance]
      * @date [2021-03-15 16:00]
      */

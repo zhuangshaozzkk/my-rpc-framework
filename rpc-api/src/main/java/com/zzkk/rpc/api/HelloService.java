@@ -8,7 +8,7 @@ package com.zzkk.rpc.api;
 public interface HelloService {
     /**
      * @description 接口方法
-     * @param [object]
+     * @param
      * @return [java.lang.String]
      * @date [2021-02-03 15:28]
      */

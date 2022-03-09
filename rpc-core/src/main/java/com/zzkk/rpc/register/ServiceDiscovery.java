@@ -10,7 +10,7 @@ import java.net.InetSocketAddress;
 public interface ServiceDiscovery {
     /**
      * @description 根据服务名称查找服务端地址
-     * @param [serviceName]
+     * @param
      * @return [java.net.InetSocketAddress]
      * @date [2021-03-14 10:09]
      */

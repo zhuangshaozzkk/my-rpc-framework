@@ -35,7 +35,7 @@ public class NacosUtil {
 
     /**
      * @description 连接到Nacos创建命名空间
-     * @param []
+     * @param
      * @return [com.alibaba.nacos.api.naming.NamingService]
      * @date [2021-03-14 9:33]
      */

@@ -20,7 +20,7 @@ public class NacosServiceRegistry implements ServiceRegistry{
 
     /**
      * @description 将服务的名称和地址注册进服务注册中心
-     * @param [serviceName, inetSocketAddress]
+     * @param
      * @return [void]
      * @date [2021-03-13 15:40]
      */

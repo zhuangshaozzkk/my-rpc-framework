@@ -80,7 +80,7 @@ public abstract class AbstractRpcServer implements RpcServer{
 
     /**
      * @description 将服务保存在本地的注册表，同时注册到Nacos
-     * @param [service, serviceName]
+     * @param service, serviceName
      * @return [void]
      * @date [2021-03-16 12:32]
      */

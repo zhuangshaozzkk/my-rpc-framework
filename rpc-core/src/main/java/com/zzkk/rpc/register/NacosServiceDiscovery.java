@@ -33,7 +33,7 @@ public class NacosServiceDiscovery implements ServiceDiscovery{
     }
     /**
      * @description 根据服务名称从注册中心获取到一个服务提供者的地址
-     * @param [serviceName]
+     * @param serviceName
      * @return [java.net.InetSocketAddress]
      * @date [2021-03-14 10:19]
      */

@@ -18,10 +18,10 @@ public class NettyTestClient {
         RpcClient client = new NettyClient(CommonSerializer.PROTOBUF_SERIALIZER);
         RpcClientProxy rpcClientProxy = new RpcClientProxy(client);
         HelloService helloService = rpcClientProxy.getProxy(HelloService.class);
-        HelloObject object = new HelloObject(12, "this is netty style");
+        HelloObject object = new HelloObject(12, "this is rpc");
         String res = helloService.hello(object);
         System.out.println(res);
         ByeService byeService = rpcClientProxy.getProxy(ByeService.class);
-        System.out.println(byeService.bye("Netty"));
+        System.out.println(byeService.bye("rpc"));
     }
 }
